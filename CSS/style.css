@@ -1297,3 +1297,28 @@ a {
     }
 
 }
+
+/* =========================================
+   CURRENT PROJECT INDICATOR
+   ========================================= */
+
+.project-current {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 14px;
+    border: 1px solid rgba(103, 158, 247, 0.3);
+    border-radius: 7px;
+    background: rgba(103, 158, 247, 0.06);
+    color: var(--blue-light);
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.current-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--blue-light);
+    box-shadow: 0 0 8px rgba(103, 158, 247, 0.7);
+}
